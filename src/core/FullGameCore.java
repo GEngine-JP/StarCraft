@@ -111,8 +111,7 @@ public abstract class FullGameCore {
         long currTime = startTime;
 
         while (isRunning) {
-            long elapsedTime =
-                System.currentTimeMillis() - currTime;
+            long elapsedTime =  System.currentTimeMillis() - currTime;
             currTime += elapsedTime;
 
             // update

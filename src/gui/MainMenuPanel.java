@@ -13,7 +13,6 @@ import javax.swing.JPanel;
 import util.Elastic;
 import core.ResourceManager;
 
-@SuppressWarnings("serial")
 public class MainMenuPanel extends Abstractpanel {
 
 	private MenuItem item;
